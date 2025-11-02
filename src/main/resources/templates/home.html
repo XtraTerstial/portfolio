@@ -16,8 +16,30 @@
     <!--   Loading Animation-->
     <div th:replace="~{fragments/loader :: loader}"></div>
 
-    <h1>Hello..</h1>
+<!--    Background shapes-->
+    <div class="floating-shape shape-1"></div>
+    <div class="floating-shape shape-2"></div>
+    <div class="floating-shape shape-3"></div>
 
+<!--    Header Section-->
+    <div th:replace="~{fragments/header :: site-header}"></div>
+
+<!--    hero-->
+<div th:replace="~{fragments/hero :: hero-section}"></div>
+
+<!--    about-->
+<div th:replace="~{fragments/about :: about-section}"></div>
+
+<!--    projects-->
+    <div th:replace="~{fragments/projects :: projects-section}"></div>
+
+    <!-- Contact Section -->
+    <div th:replace="~{fragments/contact :: contact-section}"></div>
+
+    <!-- Footer -->
+    <div th:replace="~{fragments/footer :: footer-section}"></div>
+
+<!--    custom script-->
     <script src="/js/script.js"></script>
 </body>
 </html>
